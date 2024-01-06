@@ -5,6 +5,7 @@ import Home from '../pages/Home/Home/Home';
 const Main = () => {
     return (
         <div>
+            
             <Outlet></Outlet>
         </div>
     );
