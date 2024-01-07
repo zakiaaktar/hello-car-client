@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
-import Home from '../pages/Home/Home/Home';
 import Footer from '../pages/Shared/Footer/Footer';
+import NavBar from '../pages/Shared/NavBar/NavBar';
 
 
 
@@ -15,7 +15,7 @@ const Main = () => {
 
     return (
         <div className="max-w-screen-[1964px] mx-auto">
-        
+        <NavBar></NavBar>
         <Outlet></Outlet>
         {noHeaderFooter || <Footer></Footer>}
       </div>
