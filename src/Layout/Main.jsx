@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet, useLocation } from "react-router-dom";
-import Footer from "../pages/Shared/Footer/Footer";
 import NavBar from "../pages/Shared/NavBar/NavBar";
+import Sidebar from "../pages/Shared/Sidebar/Sidebar";
 
 const Main = () => {
 
@@ -17,7 +17,7 @@ const Main = () => {
           <Outlet></Outlet>
         </div>
         {/* sidebar  */}
-        {/* <Sidebar></Sidebar> */}
+        <Sidebar></Sidebar>
       </div>
     </section>
   );
