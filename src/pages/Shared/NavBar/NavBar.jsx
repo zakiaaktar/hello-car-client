@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom';
-import { HiMenuAlt1 } from "react-icons/hi";
 import { FiMenu } from "react-icons/fi";
 
 
@@ -8,11 +7,13 @@ import { FiMenu } from "react-icons/fi";
 const NavBar = () => {
 
 
+  //bg-gradient-to-r from-[#F6D365] to-[#FDA085] 
+
     return (
-        <div className="max-w-screen-2xl bg-gradient-to-r from-[#F6D365] to-[#FDA085] navbar flex items-center justify-between px-4 lg:px-16 py-2 lg:py-6">
+        <div className="max-w-screen-2xl bg-gradient-to-r from-[#FF9209] to-[#EF4040] navbar flex items-center justify-between px-8 lg:px-24 py-4 lg:py-8">
       <div>
         {/* <img className="w-36 lg:w-52" src={logo} alt="logo" /> */}
-        <h1 className="text-3xl font-bold text-gray-600">Hello Car</h1>
+        <h1 className="text-3xl font-bold text-white">Hello Car</h1>
       </div>
       <div className="lg:hidden">
         <label
