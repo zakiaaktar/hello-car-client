@@ -53,14 +53,14 @@ const NavBar = () => {
           </li>
           <li>
             <NavLink
-              to="/register"
+              to="/signup"
               className={({ isActive }) =>
                 isActive
                   ? `text-white border-b-2 border-b-white flex items-center gap-3 font-bold text-2xl uppercase`
                   : `nav-text flex items-center gap-3 font-bold text-xl uppercase`
               }
             >
-              Register
+              Sign Up
             </NavLink>
           </li>
           <li>

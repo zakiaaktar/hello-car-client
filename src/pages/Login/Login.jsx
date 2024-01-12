@@ -29,7 +29,7 @@ const Login = () => {
             alt=""
           />
         </div>
-        <div className="w-full bg-[#FFE382] rounded-lg drop-shadow-2xl mx-auto mt-10 lg:-mt-16 mr-24">
+        <div className="w-11/12 lg:w-full bg-slate-100 rounded-lg drop-shadow-2xl mx-auto mt-10 lg:-mt-16 -ml-18">
           <form
             onSubmit={handleLogin}
             className="card-body lg:px-32 pt-12 lg:pt-32 "

@@ -39,14 +39,14 @@ const Sidebar = () => {
         </li>
         <li>
           <NavLink
-            to="/register"
+            to="/signup"
             className={({ isActive }) =>
               isActive
                 ? `text-[#EF4040] w-full rounded-lg border-b-2 border-b-[#EF4040] flex items-center justify-center gap-3 font-bold text-xl uppercase`
                 : `nav-text flex items-center justify-center gap-3 font-bold text-lg uppercase`
             }
           >
-            Register
+            Sign Up
           </NavLink>
         </li>
         <li>

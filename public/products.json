@@ -1,0 +1,202 @@
+[    
+    {
+      "id": "1",
+      "image": "https://i.ibb.co/NCfs36J/Untitled-design-4.jpg",
+      "productName": "BMW X1",
+      "brandName": "BMW",
+      "description": "The BMW X1 is an SUV that is designed to house five people with maximum comfort.",
+      "type": "Car",
+      "price": 1.15,
+      "rating": 5
+    },
+    {
+      "id": "2",
+      "image": "https://i.ibb.co/DVvLk0Q/Untitled-design-5.jpg",
+      "productName": "BMW X3",
+      "brandName": "BMW",
+      "description": "X3 is a Sports Activity Vehicle focused on agility and performance instead of more utilitarian tasks.",
+      "type": "Car",
+      "price": 1.14,
+      "rating": 4.9
+    },
+    {
+      "id": "3",
+      "image": "https://i.ibb.co/yF18WnP/Untitled-design-6.jpg",
+      "productName": "BMW X5",
+      "brandName": "BMW",
+      "description": "Spacious interior, quick acceleration, good driving range.",
+      "type": "Car",
+      "price": 1.11,
+      "rating": 4.9
+    },
+    {
+      "id": "4",
+      "image": "https://i.ibb.co/QcwXnQq/Untitled-design-7.jpg",
+      "productName": "BMW X7",
+      "brandName": "BMW",
+      "description": "The BMW X7 xDrive40i is powered by a 3.0-litre turbocharged inline six-cylinder petrol engine.",
+      "type": "Car",
+      "price": 3.15,
+      "rating": 5
+    },
+    {
+      "id": "5",
+      "image": "https://i.ibb.co/ZSByCx4/Untitled-design-8.jpg",
+      "productName": "Mercedes-Benz A",
+      "brandName": "Mercedes",
+      "description": "The Mercedes-Benz A-Class comes with intuitive ease of use via the Mercedes-Benz User Experience.",
+      "type": "Car",
+      "price": 1.15,
+      "rating": 4.8
+    },
+    {
+      "id": "6",
+      "image": "https://i.ibb.co/7K378g2/Untitled-design-1.jpg",
+      "productName": "Mercedes-Benz S",
+      "brandName": "Mercedes",
+      "description": "Second-generation Mercedes-Benz User Experience (MBUX) with Voice Control multimedia system.",
+      "type": "Car",
+      "price": 3.11,
+      "rating": 5
+    },
+    {
+      "id": "7",
+      "image": "https://i.ibb.co/gvYQ4W5/Untitled-design-2.jpg",
+      "productName": "Mercedes-Benz GLS",
+      "brandName": "Mercedes",
+      "description": "Mercedes-Benz family SUV offers exactly what you'd expect: luxury, tech, and comfort in an imposing package.",
+      "type": "Car",
+      "price": 1.17,
+      "rating": 5
+    },
+    {
+      "id": "8",
+      "image": "https://i.ibb.co/1ZycCXt/Untitled-design-3.jpg",
+      "productName": "Mercedes-Benz G-Wagon",
+      "brandName": "Mercedes",
+      "description": "The Mercedes-Benz G-Class and GL-Class are both luxury SUVs produced by Mercedes-Benz",
+      "type": "Car",
+      "price": 1,
+      "rating": 4.8
+    },
+   {
+    "id": "9",
+    "image": "https://i.ibb.co/DVQwk4C/Untitled-design-5.jpg",
+    "productName": "Tesla Model S Plaid",
+    "brandName": "Tesla",
+    "description": "The Tesla Model S Plaid is an all-electric high-performance sedan manufactured by Tesla.",
+    "type": "Car",
+    "price": 1.3,
+    "rating": 4.7
+  },
+  {
+      "id": "10",
+      "image": "https://i.ibb.co/VgffbXn/Untitled-design-6.jpg",
+      "productName": "Tesla Model 3",
+      "brandName": "Tesla",
+      "description": "The Tesla Model 3 is like the Apple iPhone of the motoring world – it’s made high-tech electric cars cool and popular for the mainstream.",
+      "type": "Car",
+      "price": 1.10,
+      "rating": 5
+    },
+    {
+      "id": "11",
+      "image": "https://i.ibb.co/G5n6ZKS/Untitled-design-2.jpg",
+      "productName": "Tesla Model X",
+      "brandName": "Tesla",
+      "description": "Long-range battery, brutally quick and insanely quick powertrains, recharges quickly on road trips.",
+      "type": "Car",
+      "price": 1.3,
+      "rating": 4.9
+    },
+    {
+      "id": "12",
+      "image": "https://i.ibb.co/f0ZQwFH/Untitled-design-3.jpg",
+      "productName": "Tesla Model Y",
+      "brandName": "Tesla",
+      "description": "Spacious interior, quick acceleration, good driving range.",
+      "type": "Car",
+      "price": 1.14,
+      "rating": 4.8
+    },
+    {
+      "id": "13",
+      "image": "https://i.ibb.co/BPv5pf1/Untitled-design-8.jpg",
+      "productName": "Toyota Camry",
+      "brandName": "Toyota",
+      "description": "The 2023 Toyota Camry is available in six trims: LE, SE, SE Nightshade, XSE, XLE, and TRD.",
+      "type": "Car",
+      "price": 1.15,
+      "rating": 4.8
+    },
+    {
+      "id": "14",
+      "image": "https://i.ibb.co/k34kGBJ/Untitled-design-9.jpg",
+      "productName": "Toyota Prius",
+      "brandName": "Toyota",
+      "description": "Toyota Prius is a hybrid sedan that was built to save on energy.",
+      "type": "Car",
+      "price": 1.15,
+      "rating": 4.8
+    },
+    {
+      "id": "15",
+      "image": "https://i.ibb.co/gVfp9YR/Untitled-design-11.jpg",
+      "productName": "Toyota Highlander",
+      "brandName": "Toyota",
+      "description": "Toyota Highlander Safety, Pre-Collision System with Pedestrian Detection to help reduce the likelihood of colliding with a car or a pedestrian",
+      "type": "Car",
+      "price": 1.15,
+      "rating": 4.8
+    },
+    {
+      "id": "16",
+      "image": "https://i.ibb.co/85cydB8/Untitled-design-1.jpg",
+      "productName": "Toyota RAV4",
+      "brandName": "Toyota",
+      "description": "The Toyota RAV4 was one of the earliest car-based crossover SUVs on the market.",
+      "type": "Car",
+      "price": 1.45,
+      "rating": 4.8
+    },
+    {
+      "id": "17",
+      "image": "https://i.ibb.co/sJ04mt7/Untitled-design-2.jpg",
+      "productName": "Ford Mustang",
+      "brandName": "Ford",
+      "description": "Ford Mustang provides the same safety and convenience features.",
+      "type": "Car",
+      "price": 1,
+      "rating": 4.8
+    },
+    {
+      "id": "18",
+      "image": "https://i.ibb.co/72fFZ2b/Untitled-design-1.jpg",
+      "productName": "Ford Fusion",
+      "brandName": "Ford",
+      "description": "Ford Fusion security features are a perimeter alarm, brake assist, a keyless entry key fob, and a SecuriLock anti-theft system.",
+      "type": "Car",
+      "price": 1,
+      "rating": 4.6
+    },
+    {
+      "id": "19",
+      "image": "https://i.ibb.co/VpZfVpp/Untitled-design-2.jpg",
+      "productName": "Ford Escape",
+      "brandName": "Ford",
+      "description": "Ford Escape® SUV. Standard features include FordPass™ Connect with 4G LTE Wi-Fi.",
+      "type": "Car",
+      "price": 1.13,
+      "rating": 4.8
+    },
+    {
+      "id": "20",
+      "image": "https://i.ibb.co/ZYwVPp4/Untitled-design-3.jpg",
+      "productName": "Ford Explorer",
+      "brandName": "Ford",
+      "description": "Ford Explorer. Features ; Interior. Comfortably Seats up to Seven. Spacious and adaptable seating in all three rows.",
+      "type": "Car",
+      "price": 1,
+      "rating": 4.5
+    }
+]
