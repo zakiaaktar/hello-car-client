@@ -32,8 +32,8 @@ const NavBar = () => {
               to="/"
               className={({ isActive }) =>
                 isActive
-                  ? `text-white border-b-2 border-b-white flex items-center gap-3 font-bold text-2xl uppercase`
-                  : `nav-text flex items-center gap-3 font-bold text-xl uppercase`
+                  ? `text-yellow-200 flex items-center gap-3 font-bold uppercase`
+                  : `nav-text flex items-center gap-3 font-bold uppercase text-white`
               }
             >
               Home
@@ -41,11 +41,23 @@ const NavBar = () => {
           </li>
           <li>
             <NavLink
+              to="/products"
+              className={({ isActive }) =>
+                isActive
+                  ? `text-yellow-200 flex items-center gap-3 font-bold uppercase`
+                  : `nav-text flex items-center gap-3 font-bold text-white uppercase`
+              }
+            >
+              Products
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/login"
               className={({ isActive }) =>
                 isActive
-                  ? `text-white border-b-2 border-b-white flex items-center gap-3 font-bold text-2xl uppercase`
-                  : `nav-text flex items-center gap-3 font-bold text-xl uppercase`
+                  ? `text-yellow-200 flex items-center gap-3 font-bold uppercase`
+                  : `nav-text flex items-center gap-3 font-bold text-white uppercase`
               }
             >
               Login
@@ -56,8 +68,8 @@ const NavBar = () => {
               to="/signup"
               className={({ isActive }) =>
                 isActive
-                  ? `text-white border-b-2 border-b-white flex items-center gap-3 font-bold text-2xl uppercase`
-                  : `nav-text flex items-center gap-3 font-bold text-xl uppercase`
+                  ? `text-yellow-200 flex items-center gap-3 font-bold uppercase`
+                  : `nav-text flex items-center gap-3 font-bold text-white uppercase`
               }
             >
               Sign Up
@@ -68,8 +80,8 @@ const NavBar = () => {
               to="/dashboard"
               className={({ isActive }) =>
                 isActive
-                  ? `text-white border-b-2 border-b-white flex items-center gap-3 font-bold text-2xl uppercase`
-                  : `nav-text flex items-center gap-3 font-bold text-xl uppercase`
+                  ? `text-yellow-200 flex items-center gap-3 font-bold uppercase`
+                  : `nav-text flex items-center gap-3 font-bold text-white uppercase`
               }
             >
               Dashboard

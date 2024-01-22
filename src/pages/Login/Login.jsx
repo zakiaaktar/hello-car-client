@@ -22,7 +22,7 @@ const Login = () => {
         <section className="w-11/12 lg:w-full mx-auto lg:my-20">
       
       <div className="flex flex-col-reverse lg:flex-row items-center justify-center lg:gap-32">
-        <div className="w-full  text-center">
+        <div className="w-full text-center">
           <img
             className="rounded-lg mx-auto drop-shadow-2xl"
             src={login}

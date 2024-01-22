@@ -10,7 +10,7 @@ const Sidebar = () => {
         aria-label="close sidebar"
         className="drawer-overlay"
       ></label>
-      <ul className="menu p-20 w-80 min-h-full bg-[#FFE382]">
+      <ul className="menu p-20 w-80 min-h-full bg-slate-100">
         {/* Sidebar content here */}
         <div className="flex justify-end"></div>
         <li>
@@ -18,8 +18,8 @@ const Sidebar = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? `text-[#EF4040] w-full rounded-lg border-b-2 border-b-[#EF4040] flex items-center justify-center gap-3 font-bold text-xl uppercase`
-                : `nav-text flex items-center justify-center gap-3 font-bold text-lg uppercase`
+                ? `text-[#EF4040] w-full rounded-lg border-b-2 border-b-[#EF4040] flex items-center justify-center gap-3 font-bold uppercase`
+                : `nav-text flex items-center justify-center gap-3 font-bold uppercase`
             }
           >
             Home
@@ -27,11 +27,24 @@ const Sidebar = () => {
         </li>
         <li>
           <NavLink
+            to="/products"
+            className={({ isActive }) =>
+              isActive
+                ? `text-[#EF4040] w-full rounded-lg border-b-2 border-b-[#EF4040] flex items-center justify-center gap-3 font-bold text-lg uppercase`
+                : `nav-text flex items-center justify-center gap-3 font-bold uppercase`
+            }
+          >
+            Products
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
             to="/login"
             className={({ isActive }) =>
               isActive
-                ? `text-[#EF4040] w-full rounded-lg border-b-2 border-b-[#EF4040] flex items-center justify-center gap-3 font-bold text-xl uppercase`
-                : `nav-text flex items-center justify-center gap-3 font-bold text-lg uppercase`
+                ? `text-[#EF4040] w-full rounded-lg border-b-2 border-b-[#EF4040] flex items-center justify-center gap-3 font-bold 
+                 uppercase`
+                : `nav-text flex items-center justify-center gap-3 font-bold uppercase`
             }
           >
             Login
@@ -42,8 +55,8 @@ const Sidebar = () => {
             to="/signup"
             className={({ isActive }) =>
               isActive
-                ? `text-[#EF4040] w-full rounded-lg border-b-2 border-b-[#EF4040] flex items-center justify-center gap-3 font-bold text-xl uppercase`
-                : `nav-text flex items-center justify-center gap-3 font-bold text-lg uppercase`
+                ? `text-[#EF4040] w-full rounded-lg border-b-2 border-b-[#EF4040] flex items-center justify-center gap-3 font-bold uppercase`
+                : `nav-text flex items-center justify-center gap-3 font-bold uppercase`
             }
           >
             Sign Up
@@ -54,8 +67,8 @@ const Sidebar = () => {
             to="/dashboard"
             className={({ isActive }) =>
               isActive
-                ? `text-[#EF4040] w-full rounded-lg border-b-2 border-b-[#EF4040] flex items-center justify-center gap-3 font-bold text-xl uppercase`
-                : `nav-text flex items-center justify-center gap-3 font-bold text-lg uppercase`
+                ? `text-[#EF4040] w-full rounded-lg border-b-2 border-b-[#EF4040] flex items-center justify-center gap-3 font-bold uppercase`
+                : `nav-text flex items-center justify-center gap-3 font-bold uppercase`
             }
           >
             Dashboard
