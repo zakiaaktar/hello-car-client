@@ -8,7 +8,7 @@ const Product = ({ product }) => {
 
 
   return (
-    <div className="card shadow-xl w-96 mx-auto p-4 rounded-lg border  border-[#FF9209] text-center my-16">
+    <div className="card shadow-xl w-96 mx-auto p-4 rounded-lg border border-[#FF9209] text-center my-16">
       <div>
         <img className="rounded-lg rounded-br-[100px]" src={image} alt="" />
       </div>
